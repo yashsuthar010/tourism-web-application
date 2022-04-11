@@ -1,0 +1,77 @@
+.container {
+  display: flex;
+  border: black solid;
+  justify-content: space-between;
+  position: relative;
+  align-items: center;
+  height: 50px;
+  background: #000;
+  color: aliceblue;
+  padding: 10px 20px;
+}
+
+.link-container {
+  width: 300px;
+  /* border: red solid; */
+  position: absolute;
+  right: 270px;
+}
+
+.links {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+.home {
+  transition: all ease 0.5s;
+}
+.home:hover {
+  color: green;
+}
+.about {
+  transition: all ease 0.5s;
+}
+.about:hover {
+  color: green;
+}
+.service {
+  transition: all ease 0.5s;
+}
+.service:hover {
+  color: green;
+}
+
+#logo {
+  color: green;
+}
+.btn-contain {
+  /* border: yellow solid; */
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  cursor: pointer;
+  padding: 8px 18px;
+  background: #000;
+  color: green;
+  font-size: 1.2em;
+  border: green solid 1.5px;
+  border-radius: 10px;
+  transition: all ease 0.5s;
+}
+
+.btn:hover {
+  color: white;
+  background: green;
+}
+
+.img1 {
+  width: 500px;
+  height: 600px;
+  right: 0;
+  bottom: 10px;
+}

@@ -1,0 +1,21 @@
+.container2 {
+  background: white;
+
+  height: 600px;
+}
+
+.card-container {
+  border: red solid;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  column-gap: 70px;
+  text-align: center;
+  height: 500px;
+  /* width: 300px; */
+  align-items: center;
+}
+.card {
+  border: solid red;
+  height: 300px;
+  margin: 0px 60px;
+}
