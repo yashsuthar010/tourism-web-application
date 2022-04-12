@@ -7,7 +7,7 @@ const Navbar = () => {
       <div className="container">
         <div>
           <a>
-            <h1>
+            <h1 style={{ fontFamily: "Beau Rivage" }}>
               <span id="logo">JUST</span>FUN
             </h1>
           </a>
@@ -15,13 +15,16 @@ const Navbar = () => {
         <div className="link-container">
           <ul className="links">
             <li className="home">Home</li>
-            <li className="about">About</li>
-            <li className="service">Service</li>
+            <li className="explore">explore</li>
+
+            <li className="gallery">Gallery</li>
+            <li className="plan">Plan</li>
+            <li className="expense">Expense</li>
           </ul>
         </div>
         <div className="btn-contain">
-          <button className="btn">logIn</button>
-          <button className="btn">SignIn</button>
+          <button className="btn1-1">logIn</button>
+          <button className="btn3">SignIn</button>
         </div>
       </div>
     </>

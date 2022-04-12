@@ -1,20 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Kanit:wght@200;300;500&family=Montserrat:wght@300;400;500;600&family=Poppins:wght@100;200;300;400;500&display=swap");
 .container {
   display: flex;
-  border: black solid;
+  /* border: black solid; */
   justify-content: space-between;
   position: relative;
   align-items: center;
   height: 50px;
-  background: #000;
+  background: #ffafaf;
   color: aliceblue;
-  padding: 10px 20px;
+  padding: 20px 70px;
 }
 
 .link-container {
-  width: 300px;
+  width: 450px;
   /* border: red solid; */
-  position: absolute;
-  right: 270px;
 }
 
 .links {
@@ -45,6 +44,7 @@
 
 #logo {
   color: green;
+  font-family: Beau Rivage;
 }
 .btn-contain {
   /* border: yellow solid; */
@@ -53,25 +53,28 @@
   justify-content: space-between;
 }
 
-.btn {
-  cursor: pointer;
-  padding: 8px 18px;
-  background: #000;
-  color: green;
-  font-size: 1.2em;
-  border: green solid 1.5px;
-  border-radius: 10px;
-  transition: all ease 0.5s;
-}
-
-.btn:hover {
-  color: white;
-  background: green;
-}
-
 .img1 {
   width: 500px;
   height: 600px;
   right: 0;
   bottom: 10px;
+}
+
+.btn1-1 {
+  padding: 5px 20px;
+  color: white;
+  border: none;
+  font-size: 1em;
+  cursor: pointer;
+  background: #ffafaf;
+}
+
+.btn3 {
+  padding: 5px 20px;
+  color: white;
+  border: white 1px solid;
+  border-radius: 30px;
+  font-size: 1em;
+  cursor: pointer;
+  background: #ffafaf;
 }
