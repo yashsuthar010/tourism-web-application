@@ -9,12 +9,12 @@ const Header = () => {
       <div className="container1">
         <div className="mid">
           <h1 id="text">
-            Share Your
+            Share your
             <br />
-            <span id="head-text">Memories...</span>
+            <span id="head-text">memories...</span>
           </h1>
           <br />
-          <h3 style={{ color: "gray" }}>
+          <h3 style={{ color: "#FFF8F3" }}>
             "Life is either a daring adventure or nothing at all."
           </h3>
           <br />
