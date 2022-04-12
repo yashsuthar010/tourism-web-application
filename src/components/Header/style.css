@@ -2,7 +2,6 @@
   font-family: "Poppins", sans-serif;
   font-weight: 300;
 }
-
 .container1 {
   padding: 5px 10px;
   max-height: 100%;
@@ -30,10 +29,7 @@
   overflow: hidden; 
   transform: rotate(2.5deg);
   padding-top: 100px ;
-
-
 }
-
 #head-text {
   color: white;
   /* font-size: 4em; */
@@ -44,7 +40,7 @@
   /* position: absolute;
   left: 20px;
   bottom: 50%; */
-  font-size: 4em;
+  font-size: 4.5em;
   font-weight: bold;
   color: white;
 }
@@ -76,4 +72,47 @@
   border-radius: 40px;
   cursor: pointer;
   box-shadow: 5px 2px 20px whitesmoke;
+  transition: all ease 0.5s;
+}
+.btn1:hover {
+  transform: scale(1.1);
+}
+
+.arrow-container {
+  position: absolute;
+  left: 115px;
+  bottom: 130px;
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+}
+
+.left {
+  padding: 5px 10px;
+  background: white;
+
+  border-radius: 10px;
+  opacity: 0.6;
+  transition: all ease 0.5s;
+}
+.left:hover {
+  opacity: 1;
+  transform: scalex(1.5);
+}
+.right:hover {
+  opacity: 1;
+  transform: scalex(1.5);
+}
+.arrow-rotate {
+  transform: rotate(180deg);
+  object-fit: fill;
+}
+.right {
+  padding: 5px 10px;
+  margin-left: 20px;
+  background: white;
+
+  border-radius: 10px;
+  opacity: 0.6;
+  transition: all ease 0.5s;
 }
