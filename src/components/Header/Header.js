@@ -14,19 +14,19 @@ const Header = () => {
             <span id="head-text">memories...</span>
           </h1>
           <br />
-          <h3 style={{ color: "#FFF8F3" }}>
+          <h3 style={{ color: "#FFF8F3", fontSize: "1em" }}>
             "Life is either a daring adventure or nothing at all."
           </h3>
           <br />
           <br />
           <br />
-          <br />
-          <br />
+
           <button className="btn1">Explore</button>
         </div>
         <div className="image">
           <img src={tour} className="img" />
         </div>
+        {/* <div className="tilt"></div> */}
       </div>
     </>
   );
