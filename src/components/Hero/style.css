@@ -5,7 +5,7 @@
 }
 
 .card-container {
-  border: red solid;
+  border: yellow solid;
   display: grid;
   grid-template-columns: auto auto auto;
   column-gap: 70px;
