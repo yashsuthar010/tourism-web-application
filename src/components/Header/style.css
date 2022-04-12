@@ -63,8 +63,8 @@ s #head-text {
 
 .arrow-container {
   position: absolute;
-  left: 120px;
-  bottom: 80px;
+  left: 115px;
+  bottom: 130px;
   display: grid;
   grid-template-columns: auto auto;
   align-items: center;
@@ -72,10 +72,10 @@ s #head-text {
 
 .left {
   padding: 5px 10px;
-  background: #628395;
+  background: #0a1d37;
   color: black;
   border-radius: 10px;
-  opacity: 0.5;
+  opacity: 0.7;
   transition: all ease 0.5s;
 }
 .left:hover {
@@ -93,9 +93,9 @@ s #head-text {
 .right {
   padding: 5px 10px;
   margin-left: 20px;
-  background: #628395;
+  background: #0a1d37;
   color: black;
   border-radius: 10px;
-  opacity: 0.5;
+  opacity: 0.7;
   transition: all ease 0.5s;
 }
