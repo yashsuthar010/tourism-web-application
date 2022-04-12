@@ -25,12 +25,12 @@ const Hero = () => {
           </div>
           <div className="card">
             <img src={game} />
-            <h3>hello there</h3>
+            <h3>hello </h3>
             <button className="btn2">more</button>
           </div>
           <div className="card">
             <img src={game} />
-            <h3>hello there</h3>
+            <h3>hello </h3>
             <button className="btn2">more</button>
           </div>
         </div>
