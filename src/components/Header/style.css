@@ -17,7 +17,7 @@
   flex-shrink: 2;
   overflow: hidden;
 }
-s #head-text {
+#head-text {
   color: white;
   /* font-size: 4em; */
   font-weight: bold;
@@ -72,8 +72,8 @@ s #head-text {
 
 .left {
   padding: 5px 10px;
-  background: #0a1d37;
-  color: black;
+  background: white;
+
   border-radius: 10px;
   opacity: 0.7;
   transition: all ease 0.5s;
@@ -93,8 +93,8 @@ s #head-text {
 .right {
   padding: 5px 10px;
   margin-left: 20px;
-  background: #0a1d37;
-  color: black;
+  background: white;
+
   border-radius: 10px;
   opacity: 0.7;
   transition: all ease 0.5s;
