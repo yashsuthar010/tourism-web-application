@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 import tour from "../../images/tour.png";
-import sign from "../../images/sign.png";
+import one from "../../images/1x/one.png";
 
 const Header = () => {
   return (
@@ -26,7 +26,14 @@ const Header = () => {
         <div className="image">
           <img src={tour} className="img" />
         </div>
-        {/* <div className="tilt"></div> */}
+        <div className="arrow-container">
+          <div className="left">
+            <img src={one} className="arrow-rotate" />
+          </div>
+          <div className="right">
+            <img src={one} />
+          </div>
+        </div>
       </div>
     </>
   );
