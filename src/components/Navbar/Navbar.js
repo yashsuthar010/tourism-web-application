@@ -15,7 +15,7 @@ const Navbar = () => {
         <div className="link-container">
           <ul className="links">
             <li className="home">Home</li>
-            <li className="explore">explore</li>
+            <li className="explore">Explore</li>
 
             <li className="gallery">Gallery</li>
             <li className="plan">Plan</li>

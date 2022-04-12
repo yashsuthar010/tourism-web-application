@@ -2,6 +2,7 @@ import React from "react";
 import "./style.css";
 import tour from "../../images/tour.png";
 import one from "../../images/1x/one.png";
+// import Slider from "react-slick";
 
 const Header = () => {
   return (
