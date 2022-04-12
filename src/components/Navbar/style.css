@@ -8,7 +8,8 @@
   height: 50px;
   background: #ffafaf;
   color: aliceblue;
-  padding: 20px 70px;
+  padding: 0 70px;
+  padding-top: 30px;
 }
 
 .link-container {
@@ -29,16 +30,28 @@
 .home:hover {
   color: green;
 }
-.about {
+.gallery {
   transition: all ease 0.5s;
 }
-.about:hover {
+.gallery:hover {
   color: green;
 }
-.service {
+.explore {
   transition: all ease 0.5s;
 }
-.service:hover {
+.explore:hover {
+  color: green;
+}
+.plan {
+  transition: all ease 0.5s;
+}
+.plan:hover {
+  color: green;
+}
+.expense {
+  transition: all ease 0.5s;
+}
+.expense:hover {
   color: green;
 }
 
