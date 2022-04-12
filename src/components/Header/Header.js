@@ -9,15 +9,14 @@ const Header = () => {
       <div className="container1">
         <div className="mid">
           <h1 id="text">
-            Share your
+            Travel the
             <br />
-            <span id="head-text">memories...</span>
+            <span id="head-text">world...</span>
           </h1>
           <br />
           <h3 style={{ color: "#FFF8F3", fontSize: "1em" }}>
             "Life is either a daring adventure or nothing at all."
           </h3>
-          <br />
           <br />
           <br />
 
