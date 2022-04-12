@@ -1,10 +1,10 @@
 .container2 {
-  background: #cdbe78;
+  background: #066163;
   position: relative;
   height: 600px;
 }
 .container2 h1 {
-  color: #066163;
+  color: #cdbe78;
   margin-left: 650px;
   padding-top: 30px;
   font-size: 3em;
@@ -26,7 +26,7 @@
   /* border: solid red; */
   height: 350px;
   margin: 0px 70px;
-  background: gray;
+  background: #f2f2f2;
   /* border-radius: 50px 50px 0 0; */
   position: relative;
 }
@@ -42,7 +42,7 @@
 
 .card h3 {
   font-size: 2em;
-  color: whitesmoke;
+  color: #383838;
   padding-left: 10px;
 }
 

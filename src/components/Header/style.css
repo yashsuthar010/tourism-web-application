@@ -4,7 +4,7 @@
   height: 750px;
   /* border: red solid; */
   /* background: #000; */
-  background: #d7e1ec;
+  background: black;
   color: aliceblue;
   display: flex;
   position: relative;
@@ -21,7 +21,7 @@
   left: 20px;
   bottom: 50%; */
   font-size: 7.5em;
-  color: #2eb086;
+  color: whitesmoke;
 }
 
 .image {
@@ -46,7 +46,10 @@
 .btn1 {
   padding: 15px 30px;
   border: black;
-  background: black;
+  /* background: black; */
+
+  background: linear-gradient(#e66465, #9198e5);
+
   color: white;
   border-radius: 10px;
   cursor: pointer;
