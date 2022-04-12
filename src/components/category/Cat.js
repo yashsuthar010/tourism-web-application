@@ -7,7 +7,7 @@ const Cat = () => {
   return (
     <>
       <div className="container3">
-        <h1 className="cat-head">Category</h1>
+        <h1 className="head">Category</h1>
 
         <div className="cat-container">
           <ul className="cat-links">
@@ -44,6 +44,7 @@ const Cat = () => {
             <img src={robot} className="img-r" />
           </div>
         </div>
+        {/* <button>More</button> */}
       </div>
     </>
   );
