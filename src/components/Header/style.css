@@ -6,7 +6,7 @@
 .container1 {
   padding: 5px 10px;
   max-height: 100%;
-  height: 750px;
+  height: 730px;
   /* border: red solid; */
   /* background: #000; */
   background: #ffafaf;
@@ -16,6 +16,21 @@
   justify-content: space-between;
   flex-shrink: 2;
   overflow: hidden;
+}
+
+.tilt {
+  position: absolute;
+  content: " ";
+  display: block;
+  left: -5%;
+  bottom: -80px;
+  background: white;
+  width: 110%;
+  height: 30px;
+  /* border: solid red; */
+  overflow: hidden;
+  transform: rotate(2.5deg);
+  padding-top: 100px;
 }
 #head-text {
   color: white;
@@ -40,15 +55,15 @@
 }
 
 .img {
-  height: 750px;
-  width: 850px;
+  height: 700px;
+  width: 800px;
 }
 
 .mid {
   /* border: red solid; */
   height: 600px;
   /* position: absolute; */
-  margin: 150px 100px;
+  margin: 150px 120px;
 }
 
 .btn1 {
@@ -67,7 +82,7 @@
 
 .arrow-container {
   position: absolute;
-  left: 115px;
+  left: 140px;
   bottom: 130px;
   display: grid;
   grid-template-columns: auto auto;

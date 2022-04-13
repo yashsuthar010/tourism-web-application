@@ -26,6 +26,8 @@ const Header = () => {
         <div className="image">
           <img src={tour} className="img" />
         </div>
+
+        <div className="tilt"></div>
         <div className="arrow-container">
           <div className="left">
             <img src={one} className="arrow-rotate" />
