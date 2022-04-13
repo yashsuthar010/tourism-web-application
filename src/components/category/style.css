@@ -1,0 +1,58 @@
+.container3 {
+  height: 1100px;
+  padding: 50px 100px;
+}
+
+.cat-links {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  font-size: 1em;
+  /* font-weight: 300; */
+  /* margin-left: 50px; */
+  /* cursor: pointer; */
+}
+
+.cat-container {
+  /* border: solid red; */
+  width: 200px;
+  margin: 35px 20px;
+}
+
+.hand {
+  cursor: pointer;
+}
+
+.fire {
+  cursor: pointer;
+}
+
+.head {
+  font-weight: bold;
+}
+
+.card-contain {
+  /* border: red solid; */
+  height: 900px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  column-gap: 30px;
+  padding: 0 50px;
+  align-items: center;
+}
+
+.card-1 {
+  /* border: red solid; */
+  height: 400px;
+  border-radius: 30px;
+  background: #d5d5d5;
+  position: relative;
+}
+
+.img-r {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  bottom: 0;
+  /* object-fit: fill; */
+}
