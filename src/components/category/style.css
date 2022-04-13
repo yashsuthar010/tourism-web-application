@@ -1,6 +1,7 @@
 .container3 {
   height: 1100px;
   padding: 50px 100px;
+  background: #f7f5f2;
 }
 
 .cat-links {
@@ -45,7 +46,7 @@
   /* border: red solid; */
   height: 400px;
   border-radius: 30px;
-  background: #d5d5d5;
+  background: #dfdfde;
   position: relative;
   transition: all ease 0.5s;
   /* width: 300px; */

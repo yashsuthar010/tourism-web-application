@@ -3,7 +3,9 @@ import Header from "./components/Header/Header";
 import Navbar from "./components/Navbar/Navbar";
 // import Hero from "./components/Hero/Hero";
 import Cat from "./components/category/Cat";
-import Popular from "./components/popular/Popular";
+// import Trend from "./components/Trending/Trend";
+import AutoPlay from "./components/Trending/Trend";
+import "slick-carousel/slick/slick.min";
 
 function App() {
   return (
@@ -11,7 +13,7 @@ function App() {
       <Navbar />
       <Header />
       <Cat />
-      <Popular />
+      <AutoPlay />
       {/* <Hero /> */}
     </div>
   );

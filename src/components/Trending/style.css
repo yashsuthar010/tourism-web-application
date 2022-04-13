@@ -1,0 +1,60 @@
+body {
+  overflow-x: hidden;
+}
+.container4 {
+  height: 600px;
+  padding: 50px 100px;
+  width: 100%;
+
+  overflow: hidden;
+  /* scroll-behavior: none; */
+}
+.half-color {
+  height: 400px;
+  background: #f7f7f7;
+}
+
+.h {
+  /* margin: 35px 20px; */
+  /* font-size: 1em; */
+  font-weight: bold;
+}
+
+.slider-container {
+  margin: 35px 10px;
+  /* border: red solid; */
+  /* width: 90%; */
+  height: 450px;
+  /* position: static; */
+  overflow: hidden;
+  border-radius: 50px 0 0 50px;
+  display: flex;
+}
+
+.slide1 {
+  /* background: white; */
+  /* overflow: hidden; */
+
+  height: 450px;
+  object-fit: fill;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all ease 0.5s;
+  display: flex;
+  /* margin: 0 20px; */
+  margin-right: 50px;
+  /* margin-left: 20px; */
+}
+
+.slides {
+  align-items: center;
+  overflow: hidden;
+  /* column-gap: 50px; */
+}
+
+.slide-img1 {
+  height: 450px;
+  width: 470px;
+  border-radius: 50px;
+  /* padding: 0 20px; */
+}
