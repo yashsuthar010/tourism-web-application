@@ -26,7 +26,7 @@ export default class AutoPlay extends Component {
     return (
       <div className="half-color">
         <div className="container4">
-          <h1 className="h">Trending...</h1>
+          <h1 className="h">Top Places To Visit..</h1>
           <div className="slider-container">
             <Slider {...settings} className="slides">
               <div className="slide1">
