@@ -64,20 +64,3 @@
   left: 0;
   /* object-fit: fill; */
 }
-
-.h {
-  position: absolute;
-  left: 50%;
-  opacity: 0;
-}
-.h:hover {
-  opacity: 1;
-  color: white;
-}
-
-.more {
-  position: absolute;
-  bottom: 10px;
-  left: 50px;
-  opacity: 1;
-}
