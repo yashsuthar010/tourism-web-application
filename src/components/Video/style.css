@@ -15,14 +15,14 @@
 
 .video-player {
   width: 60%;
-  /* height: 100%; */
+  height: 70%;
   position: absolute;
   left: 20%;
 
   bottom: 20px;
   border-radius: 30px;
 
-  /* border: black 0px solid; */
+  /* border: red solid; */
 
   /* transform: translate(-50%, -50%); */
 }
