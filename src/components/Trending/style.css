@@ -5,19 +5,26 @@ body {
   height: 600px;
   padding: 50px 100px;
   width: 100%;
-
+  /* border: red solid; */
   overflow: hidden;
   /* scroll-behavior: none; */
 }
 .half-color {
   height: 400px;
-  background: #f7f7f7;
+  background: linear-gradient(90deg, #fdbb2d 0%, #3a1c71 100%);
+  /* background: linear-gradient(90deg, #efd5ff 0%, #515ada 100%); */
+
+  /* background: linear-gradient(90deg, #efd5ff 0%, #515ada 100%); */
+  /* background: linear-gradient(90deg, #fc466b 0%, #3f5efb 100%); */
+  /* background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%); */
 }
 
 .h {
   /* margin: 35px 20px; */
   /* font-size: 1em; */
   font-weight: bold;
+  color: white;
+  font-size: 2.5em;
 }
 
 .slider-container {
