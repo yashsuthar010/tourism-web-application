@@ -2,21 +2,15 @@ body {
   overflow-x: hidden;
 }
 .container4 {
-  height: 600px;
+  height: 580px;
   padding: 50px 100px;
   width: 100%;
   /* border: red solid; */
   overflow: hidden;
-  /* scroll-behavior: none; */
-}
-.half-color {
-  height: 400px;
-  background: linear-gradient(90deg, #fdbb2d 0%, #3a1c71 100%);
-  /* background: linear-gradient(90deg, #efd5ff 0%, #515ada 100%); */
+  /* background: #f7f5f2; */
+  background-color: #524a4e;
 
-  /* background: linear-gradient(90deg, #efd5ff 0%, #515ada 100%); */
-  /* background: linear-gradient(90deg, #fc466b 0%, #3f5efb 100%); */
-  /* background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%); */
+  /* scroll-behavior: none; */
 }
 
 .h {
@@ -24,7 +18,7 @@ body {
   /* font-size: 1em; */
   font-weight: bold;
   color: white;
-  font-size: 2.5em;
+  /* font-size: 2.5em; */
 }
 
 .slider-container {
@@ -47,8 +41,7 @@ body {
   border-radius: 30px;
   cursor: pointer;
   /* transition: all ease 0.5s; */
-  display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   /* margin: 0 20px; */
   /* margin-right: 50px; */
   /* margin-left: 20px; */
@@ -56,6 +49,9 @@ body {
 
 .slides {
   align-items: center;
+  grid-template-columns: auto auto auto auto auto;
+  display: grid;
+  /* column-gap: 100px; */
   overflow: hidden;
   /* column-gap: 50px; */
 }
@@ -65,4 +61,5 @@ body {
   width: 470px;
   border-radius: 50px;
   /* padding: 0 20px; */
+  flex-wrap: wrap;
 }

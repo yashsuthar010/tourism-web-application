@@ -6,6 +6,7 @@ import Cat from "./components/category/Cat";
 // import Trend from "./components/Trending/Trend";
 import AutoPlay from "./components/Trending/Trend";
 import "slick-carousel/slick/slick.min";
+import Videos from "./components/Video/Videos";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Header />
       <Cat />
       <AutoPlay />
+      <Videos />
       {/* <Hero /> */}
     </div>
   );

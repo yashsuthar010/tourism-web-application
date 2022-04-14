@@ -1,0 +1,32 @@
+.container5 {
+  /* display: flex; */
+  /* flex-basis: 50%; */
+  height: 600px;
+  /* flex-direction: column; */
+  /* width: 100%; */
+  position: relative;
+  padding: 50px 100px;
+  /* width: 1; */
+  /* background: #395b64; */
+  background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+  background-color: #fbab7e;
+  /* background-image: linear-gradient(62deg, #fbab7e 0%, #f7ce68 100%); */
+}
+
+.video-player {
+  width: 60%;
+  /* height: 100%; */
+  position: absolute;
+  left: 20%;
+
+  bottom: 20px;
+  border-radius: 30px;
+
+  /* border: black 0px solid; */
+
+  /* transform: translate(-50%, -50%); */
+}
+
+.vid {
+  border-radius: 10px;
+}

@@ -24,30 +24,30 @@ export default class AutoPlay extends Component {
       cssEase: "linear",
     };
     return (
-      <div className="half-color">
-        <div className="container4">
-          <h1 className="h">Top Places To Visit..</h1>
-          <div className="slider-container">
-            <Slider {...settings} className="slides">
-              <div className="slide1">
-                <img src={img1} className="slide-img1" />
-              </div>
-              <div className="slide1">
-                <img src={img2} className="slide-img1" />
-              </div>
-              <div className="slide1">
-                <img src={img3} className="slide-img1" />
-              </div>
-              <div className="slide1">
-                <img src={img4} className="slide-img1" />
-              </div>
-              <div className="slide1">
-                <img src={img5} className="slide-img1" />
-              </div>
-            </Slider>
-          </div>
+      // <div className="half-color">
+      <div className="container4">
+        <h1 className="h">Top Places To Visit..</h1>
+        <div className="slider-container">
+          <Slider {...settings} className="slides">
+            <div className="slide1">
+              <img src={img1} className="slide-img1" />
+            </div>
+            <div className="slide1">
+              <img src={img2} className="slide-img1" />
+            </div>
+            <div className="slide1">
+              <img src={img3} className="slide-img1" />
+            </div>
+            <div className="slide1">
+              <img src={img4} className="slide-img1" />
+            </div>
+            <div className="slide1">
+              <img src={img5} className="slide-img1" />
+            </div>
+          </Slider>
         </div>
       </div>
+      // </div>
     );
   }
 }
