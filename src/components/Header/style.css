@@ -13,7 +13,7 @@
   color: aliceblue;
   display: flex;
   position: relative;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-shrink: 2;
   overflow: hidden;
 }
@@ -32,17 +32,12 @@
   transform: rotate(2.5deg);
   padding-top: 100px;
 }
-#head-text {
-  color: white;
-  /* font-size: 4em; */
-  font-weight: bold;
-}
 
 #text {
   /* position: absolute;
   left: 20px;
   bottom: 50%; */
-  font-size: 4.5em;
+  font-size: 4em;
   font-weight: bold;
   color: white;
 }
@@ -57,13 +52,14 @@
 .img {
   height: 700px;
   width: 800px;
+  margin-right: 300px;
 }
 
 .mid {
   /* border: red solid; */
   height: 600px;
   /* position: absolute; */
-  margin: 150px 120px;
+  margin: 105px 130px;
 }
 
 .btn1 {
@@ -83,7 +79,7 @@
 .arrow-container {
   position: absolute;
   left: 140px;
-  bottom: 130px;
+  bottom: 120px;
   display: grid;
   grid-template-columns: auto auto;
   align-items: center;

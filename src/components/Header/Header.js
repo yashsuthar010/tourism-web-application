@@ -1,8 +1,10 @@
 import React from "react";
 import "./style.css";
 import tour from "../../images/tour.png";
-import one from "../../images/1x/one.png";
+
 // import Slider from "react-slick";
+
+import { AiOutlineArrowRight, AiOutlineArrowLeft } from "react-icons/ai";
 
 const Header = () => {
   return (
@@ -10,9 +12,9 @@ const Header = () => {
       <div className="container1">
         <div className="mid">
           <h1 id="text">
-            Travel the
+            Explore the Beauty
             <br />
-            <span id="head-text">world...</span>
+            Of world...
           </h1>
           <br />
           <h3 style={{ color: "#FFF8F3", fontSize: "1em" }}>
@@ -30,10 +32,10 @@ const Header = () => {
         <div className="tilt"></div>
         <div className="arrow-container">
           <div className="left">
-            <img src={one} className="arrow-rotate" />
+            <AiOutlineArrowLeft style={{ color: "#ffafaf" }} />
           </div>
           <div className="right">
-            <img src={one} />
+            <AiOutlineArrowRight style={{ color: "#ffafaf" }} />
           </div>
         </div>
       </div>

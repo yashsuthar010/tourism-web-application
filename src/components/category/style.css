@@ -4,30 +4,6 @@
   background: #f7f5f2;
 }
 
-.cat-links {
-  display: flex;
-  list-style-type: none;
-  justify-content: space-between;
-  font-size: 1em;
-  /* font-weight: 300; */
-  /* margin-left: 50px; */
-  /* cursor: pointer; */
-}
-
-.cat-container {
-  /* border: solid red; */
-  width: 200px;
-  margin: 35px 20px;
-}
-
-.hand {
-  cursor: pointer;
-}
-
-.fire {
-  cursor: pointer;
-}
-
 .head {
   font-weight: bold;
 }

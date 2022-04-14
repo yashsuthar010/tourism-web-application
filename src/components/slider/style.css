@@ -1,0 +1,37 @@
+.cat-links {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+  font-size: 1em;
+  /* font-weight: 300; */
+  /* margin-left: 50px; */
+  /* cursor: pointer; */
+  text-align: center;
+  background: #4b6587;
+}
+
+.cat-container {
+  overflow: hidden;
+  /* border: solid red; */
+  width: 100%;
+  padding: 10px;
+  margin: 35px 20px;
+  border-radius: 20px;
+  background: #4b6587;
+}
+.fire {
+  font-weight: 400;
+  cursor: pointer;
+  /* border: solid red; */
+  color: white;
+  text-align: center;
+  transition: all ease 0.5s;
+}
+.fire:hover {
+  transform: scale(1.1);
+}
+
+.icons {
+  width: 20px;
+  height: 30px;
+}
