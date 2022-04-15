@@ -1,0 +1,83 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+html,body{
+  height: 100%;
+}
+.container{
+  display: flex;
+  height: 100%;
+}
+.left{
+  /* border: solid 2px black; */
+  height: 100%;
+  width: 50%;
+}
+.right{
+  height: 100%;
+  width: 50%;
+}
+.text{
+height: 65px;
+width: 33%;
+text-align: center;
+line-height: 35px;
+margin-top:90px ;
+margin-left: 220px;
+}
+.main-content{
+  height: auto;
+  width: auto;
+  margin-top: 100px;
+}
+label{
+  margin: 0 0 20px 100px;
+}
+input[type=text],input[type=password] {
+  background: transparent;
+  border: none;
+  width: 70%;
+  padding: 15px;
+  margin: 5px 0 22px 90px;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+  border-radius: 20px;   
+  opacity: 0.4;
+  outline: none;
+}
+input[type=text]:focus{
+  opacity: 0.8;
+  border-bottom: #ffafaf  solid 3px;
+
+}
+input[type=password]:focus{
+  opacity: 0.8;
+border-bottom: #ffafaf solid 3px;
+
+}
+
+button {
+  background-color:#ffafaf;
+  color:white;
+  padding: 14px 20px;
+  margin: 8px 0px;
+  border: #ffafaf solid 2px;
+  width: 43%;
+  border-radius: 10px;
+  cursor: pointer;
+  height: 50px;
+  opacity: 1;
+  margin: 23px 0 0 186px;
+  transition: all ease 0.5s;
+}
+button:hover {
+  transform: scale(1.1);
+}
+img{
+  width: 100%;
+  height: 100%;
+
+}
