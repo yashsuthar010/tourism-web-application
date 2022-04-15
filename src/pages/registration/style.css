@@ -1,83 +1,107 @@
-* {
+/* * {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-}
-html,body{
+} */
+
+body {
   height: 100%;
+  width: 100%;
+  /* overflow: hidden; */
 }
-.container{
+.container7 {
   display: flex;
   height: 100%;
+  /* width: 100%; */
+  /* border: red solid; */
+  position: static;
 }
-.left{
+.left1 {
   /* border: solid 2px black; */
   height: 100%;
   width: 50%;
+  /* border: red solid; */
 }
-.right{
+.right1 {
   height: 100%;
   width: 50%;
+  /* border: red solid; */
 }
-.text{
-height: 65px;
-width: 33%;
-text-align: center;
-line-height: 35px;
-margin-top:90px ;
-margin-left: 220px;
+.text1 {
+  height: 65px;
+  width: 33%;
+  text-align: center;
+  line-height: 35px;
+  margin-top: 90px;
+  margin-left: 250px;
 }
-.main-content{
+.main-content {
   height: auto;
   width: auto;
-  margin-top: 100px;
+  margin: 40px 20px;
+  display: flex;
+  flex-direction: column;
 }
-label{
-  margin: 0 0 20px 100px;
+label {
+  margin: 0 20px;
 }
-input[type=text],input[type=password] {
+input[type="text"],
+input[type="password"] {
   background: transparent;
   border: none;
   width: 70%;
   padding: 15px;
-  margin: 5px 0 22px 90px;
+  /* margin: 5px 0 22px 90px; */
+  margin: 0px 90px;
   display: inline-block;
   border: none;
   background: #f1f1f1;
-  border-radius: 20px;   
+  border-radius: 20px;
   opacity: 0.4;
   outline: none;
 }
-input[type=text]:focus{
+input[type="text"]:focus {
   opacity: 0.8;
-  border-bottom: #ffafaf  solid 3px;
-
+  border-bottom: #ffafaf solid 3px;
 }
-input[type=password]:focus{
+input[type="password"]:focus {
   opacity: 0.8;
-border-bottom: #ffafaf solid 3px;
-
+  border-bottom: #ffafaf solid 3px;
 }
 
-button {
-  background-color:#ffafaf;
-  color:white;
-  padding: 14px 20px;
+.button5 {
+  background-color: #ffafaf;
+  color: white;
+  padding: 14px 90px;
   margin: 8px 0px;
   border: #ffafaf solid 2px;
-  width: 43%;
+  /* width: 43%; */
   border-radius: 10px;
   cursor: pointer;
-  height: 50px;
-  opacity: 1;
-  margin: 23px 0 0 186px;
+  /* height: 50px; */
+  /* opacity: 0.8; */
+  /* margin: 23px 0 0 186px; */
+  margin: 10px 240px;
   transition: all ease 0.5s;
 }
-button:hover {
+.button5:hover {
   transform: scale(1.1);
+  /* opacity: 1; */
 }
-img{
+img {
   width: 100%;
   height: 100%;
+  object-fit: fill;
+}
 
+.signin-link {
+  text-decoration: none;
+  color: blueviolet;
+  font-weight: 500;
+  font-size: 1.1em;
+}
+
+.labels {
+  margin: 0px 110px;
+  padding: 0;
 }
