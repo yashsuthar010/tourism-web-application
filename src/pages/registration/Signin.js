@@ -2,8 +2,7 @@ import React from "react";
 import "./style.css";
 import img9 from "../../images/img9.jpg";
 import { Link } from "react-router-dom";
-
-const Signup = () => {
+const Signin = () => {
   return (
     <>
       <div className="container7">
@@ -13,15 +12,7 @@ const Signup = () => {
         <div className="right1">
           <form action="main-servlet" method="post">
             <div className="text1">
-              <h1 style={{ fontSize: "2.5em", fontWeight: "400" }}>
-                Get Stared
-              </h1>
-              <h4 style={{ marginTop: "15px" }}>
-                Already have account?{" "}
-                <Link to="/signin" className="signin-link">
-                  Sign In
-                </Link>
-              </h4>
+              <h1 style={{ fontSize: "2.5em", fontWeight: "400" }}>Welcome</h1>
             </div>
             <div className="main-content">
               <label className="labels">Name</label>
@@ -29,12 +20,7 @@ const Signup = () => {
               <label>
                 <input type="text" placeholder="Name" name="name" required />
               </label>
-              <br />
-              <label className="labels">Email</label>
-              <br />
-              <label>
-                <input type="text" placeholder="Email" name="email" required />
-              </label>
+
               <br />
               <label className="labels">Password</label>
               <br />
@@ -50,8 +36,14 @@ const Signup = () => {
 
               <div className="btn-sign">
                 <button type="submit" className="signupbtn button5">
-                  Sign Up
+                  Sign In
                 </button>
+                <h4 className="h4">
+                  Create account? {/* <br /> */}
+                  <Link to="/signup" className="signin-link">
+                    Sign Up
+                  </Link>
+                </h4>
               </div>
             </div>
           </form>
@@ -61,4 +53,4 @@ const Signup = () => {
   );
 };
 
-export default Signup;
+export default Signin;

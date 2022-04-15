@@ -1,8 +1,17 @@
 import React from "react";
 import "./style.css";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
+  // var header = document.getElementsByClassName("links");
+  // var btns = header.getElementsByClassName("li");
+  // for (var i = 0; i < btns.length; i++) {
+  //   btns[i].addEventListener("click", function () {
+  //     var current = document.getElementsByClassName("active");
+  //     current[0].className = current[0].className.replace(" active", "");
+  //     this.className += " active";
+  //   });
+  // }
   return (
     <>
       <div className="container">
@@ -15,20 +24,40 @@ const Navbar = () => {
         </div>
         <div className="link-container">
           <ul className="links">
-            <li className="home">Home</li>
-            <li className="explore">Explore</li>
+            <NavLink
+              exact
+              to="/"
+              activeClassName="active"
+              style={{ textDecoration: "none" }}
+            >
+              <li className="li">Home</li>
+            </NavLink>
 
-            <li className="gallery">Gallery</li>
-            <li className="plan">Plan</li>
-            <li className="expense">Expense</li>
+            <li className="li">Explore</li>
+
+            <li className="li">Gallery</li>
+            <li className="li">Plan</li>
+
+            <li className="li">
+              <NavLink
+                exact
+                to="/expense"
+                activeClassName="active"
+                style={{ textDecoration: "none" }}
+              >
+                Expense
+              </NavLink>
+            </li>
           </ul>
         </div>
         <div className="btn-contain">
-          <button className="btn1-1">logIn</button>
+          <NavLink to="/signin">
+            <button className="btn1-1">SignIn</button>
+          </NavLink>
 
-          <Link to="/signup">
-            <button className="btn3">Signup</button>
-          </Link>
+          <NavLink to="/signup">
+            <button className="btn3">SignUp</button>
+          </NavLink>
         </div>
       </div>
     </>

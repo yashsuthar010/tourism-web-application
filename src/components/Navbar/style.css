@@ -24,7 +24,24 @@
   font-size: 1.2em;
   cursor: pointer;
 }
-.home {
+
+li {
+  /* color: aliceblue; */
+  font-weight: 300;
+  transition: all ease 0.5s;
+  /* color: white; */
+}
+
+li:hover {
+  color: green;
+  /* text-decoration: none; */
+}
+
+.active {
+  color: green;
+}
+
+/* .home {
   transition: all ease 0.5s;
 }
 .home:hover {
@@ -53,7 +70,7 @@
 }
 .expense:hover {
   color: green;
-}
+} */
 
 #logo {
   color: green;
@@ -90,4 +107,8 @@
   font-size: 1em;
   cursor: pointer;
   background: #ffafaf;
+}
+
+.active:hover {
+  color: green;
 }
