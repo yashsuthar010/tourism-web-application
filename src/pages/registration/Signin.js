@@ -12,7 +12,7 @@ const Signin = () => {
         <div className="right1">
           <form action="main-servlet" method="post">
             <div className="text1">
-              <h1 style={{ fontSize: "2.5em", fontWeight: "400" }}>Welcome</h1>
+              <h1 style={{ fontSize: "2.5em", fontWeight: "400" }} className="welcome">Welcome</h1>
             </div>
             <div className="main-content">
               <label className="labels">Name</label>
