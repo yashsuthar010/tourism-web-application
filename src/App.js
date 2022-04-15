@@ -1,22 +1,19 @@
 import "./App.css";
-import Header from "./components/Header/Header";
-import Navbar from "./components/Navbar/Navbar";
-// import Hero from "./components/Hero/Hero";
-import Cat from "./components/category/Cat";
-// import Trend from "./components/Trending/Trend";
-import AutoPlay from "./components/Trending/Trend";
-import "slick-carousel/slick/slick.min";
-import Videos from "./components/Video/Videos";
+
+import { Routes, Route } from "react-router-dom";
+import Signup from "./pages/registration/Signup";
+import Home from "./Home";
 
 function App() {
   return (
     <div>
-      <Navbar />
-      <Header />
-      <Cat />
-      <AutoPlay />
-      <Videos />
-      {/* <Hero /> */}
+      <Routes>
+        <Route exact path="/" element={<Home />} />
+        {/* <Route path="about" element={<About />} /> */}
+
+        <Route path="/signup" element={<Signup />} />
+        {/* <Route path="about" element={<About />} /> */}
+      </Routes>
     </div>
   );
 }
