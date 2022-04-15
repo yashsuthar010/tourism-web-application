@@ -10,11 +10,14 @@ const Signup = () => {
         <div className="left1">
           <img src={img9} alt="" />
         </div>
-        
+
         <div className="right1">
           <form action="main-servlet" method="post">
-            <div className="text1-h1">
-              <h1 style={{ fontSize: "2.5em", fontWeight: "400" }} className="get">
+            <div className="text1-h1 text1">
+              <h1
+                style={{ fontSize: "2.5em", fontWeight: "400" }}
+                className="get"
+              >
                 Get Stared
               </h1>
               <h4 style={{ marginTop: "15px" }}>
@@ -56,7 +59,7 @@ const Signup = () => {
             </div>
           </form>
         </div>
-        </div>
+      </div>
     </>
   );
 };
