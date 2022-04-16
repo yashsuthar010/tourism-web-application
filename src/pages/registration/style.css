@@ -111,7 +111,7 @@ img {
   margin: 0px 110px;
   padding: 0;
 }
-@media screen and (max-width: 1280px) {
+@media screen and (min-width: 1280px) {
   .left1 {
     height: 100vh;
     width: 50%;
@@ -144,7 +144,7 @@ img {
     padding-top: 30px;
   }
 }
-/* @media only screen and (max-width: 1920px) {
+@media  screen and (max-width: 1920px) {
   .left1 {
     height: 100vh;
     width: 50%;
@@ -176,4 +176,4 @@ img {
   .welcome {
     padding-top: 30px;
   }
-} */
+}
