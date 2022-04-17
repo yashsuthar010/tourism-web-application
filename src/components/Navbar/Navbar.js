@@ -39,7 +39,6 @@ const Navbar = () => {
                 activeClassName="active"
                 style={{ textDecoration: "none" }}
                 to="/explore"
-                st
               >
                 Explore
               </NavLink>

@@ -176,7 +176,7 @@ input[type="number"] {
   font-size: 1em;
 }? */
 
-.btn {
+/* .btn {
   cursor: pointer;
   background-color: #9c88ff;
   box-shadow: var(--box-shadow);
@@ -237,7 +237,7 @@ input[type="number"] {
 
 .list li:hover .delete-btn {
   opacity: 1;
-}
+} */
 
 @media (max-width: 320px) {
   .container {
