@@ -1,5 +1,11 @@
 import React from "react";
 import "../main.css";
+import Addtransaction from "./Addtransaction";
+import Balance from "./Balance";
+import IncomeExpense from "./IncomeExpense";
+import Transactionlist from "./Transactionlist";
+import { GlogbalProvider } from "../../../context/Globalstate";
+
 const Main = () => {
   return (
     <>
@@ -15,7 +21,15 @@ const Main = () => {
           <button className="btn8">Get Started</button>
         </div>
         <div className="child2">
-          <div className="child3"></div>
+          <GlogbalProvider className="child3">
+            <h2 className="track">Track Expense</h2>
+            <div>
+              <Balance />
+              <IncomeExpense />
+              <Transactionlist />
+              <Addtransaction />
+            </div>
+          </GlogbalProvider>
         </div>
       </div>
     </>
