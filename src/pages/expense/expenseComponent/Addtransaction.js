@@ -21,10 +21,21 @@ const Addtransaction = () => {
 
   return (
     <>
-      <h3>Add new transaction</h3>
+      <h3 className="track">Add new transaction</h3>
+      <hr
+        style={{
+          height: "1px",
+          borderWidth: 0,
+          color: "gray",
+          backgroundColor: "gray",
+          width: "680px",
+        }}
+      />
       <form id="form" onSubmit={onSubmit}>
         <div className="form-control">
-          <label htmlFor="text">Text</label>
+          <label htmlFor="text" className="track">
+            Text
+          </label>
           <input
             type="text"
             value={text}
@@ -34,10 +45,19 @@ const Addtransaction = () => {
           />
         </div>
         <div className="form-control">
-          <label htmlFor="amount">
+          <label htmlFor="amount" className="track">
             Amount <br />
             (negative - expense, positive - income)
           </label>
+          <hr
+            style={{
+              height: "1px",
+              borderWidth: 0,
+              color: "gray",
+              backgroundColor: "gray",
+              width: "680px",
+            }}
+          />
           <input
             type="number"
             value={amount}
@@ -46,7 +66,7 @@ const Addtransaction = () => {
             placeholder="Enter amount..."
           />
         </div>
-        <button className="btn">Add transaction</button>
+        <button className="btn track">Add transaction</button>
       </form>
     </>
   );

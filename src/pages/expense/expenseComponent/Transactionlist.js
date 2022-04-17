@@ -6,7 +6,16 @@ const Transactionlist = () => {
   const { transactions } = useContext(GlobalContext);
   return (
     <>
-      <h3>History</h3>
+      <h3 className="track">History</h3>
+      <hr
+        style={{
+          height: "1px",
+          borderWidth: 0,
+          color: "gray",
+          backgroundColor: "gray",
+          width: "680px",
+        }}
+      />
       <ul id="list" className="list">
         {transactions.map((transaction) => (
           <Transaction key={transaction.id} transaction={transaction} />

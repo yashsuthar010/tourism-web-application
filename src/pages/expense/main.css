@@ -5,7 +5,7 @@ html {
 }
 
 .parent {
-  height: 150vh;
+  height: 130vh;
   /* width: 100%; */
   background: #ffafaf;
   /* border: red solid; */
@@ -57,9 +57,8 @@ html {
   margin: 70px 100px 0 100px;
 }
 
-.child3 {
-  height: 85vh;
-  /* background: #000; */
+.child4 {
+  /* border: red solid; */
   background-color: #ff3cac;
   background-image: linear-gradient(
     225deg,
@@ -67,17 +66,16 @@ html {
     #784ba0 50%,
     #2b86c5 100%
   );
-
-  width: 50ch;
-  margin: 50px 0 0 80px;
-  border-radius: 20px;
-  border: red solid;
+  width: 90%;
+  margin-top: 10%;
+  border-radius: 30px;
+  padding: 15px;
 }
 
 .track {
   color: white;
   font-size: 1.5em;
-  padding: 20px 30px;
+  padding: 5px 0;
   font-weight: 400;
 }
 .inc-exp-container {
@@ -155,21 +153,23 @@ h4 {
 .money.minus {
   color: #c0392b;
 }
-/* 
-label {
+
+/* label {
   display: inline-block;
   margin: 10px 0;
-} */
+}
 
-/* input[type="text"],
+input[type="text"],
 input[type="number"] {
   border: 1px solid #dedede;
   border-radius: 2px;
   display: block;
   font-size: 16px;
   padding: 10px;
-  width: 100%;
-} */
+  /* width: 100%; */
+/* height: 20px;
+  font-size: 1em;
+}? */
 
 .btn {
   cursor: pointer;

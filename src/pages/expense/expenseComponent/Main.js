@@ -21,9 +21,18 @@ const Main = () => {
           <button className="btn8">Get Started</button>
         </div>
         <div className="child2">
-          <GlogbalProvider className="child3">
-            <h2 className="track">Track Expense</h2>
-            <div>
+          <GlogbalProvider>
+            <div className="child4">
+              <h2 className="track">Track Expense</h2>
+              <hr
+                style={{
+                  height: "1px",
+                  borderWidth: 0,
+                  color: "gray",
+                  backgroundColor: "gray",
+                  width: "680px",
+                }}
+              />
               <Balance />
               <IncomeExpense />
               <Transactionlist />
